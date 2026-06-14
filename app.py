@@ -45,7 +45,7 @@ with col1:
     gender = st.selectbox("Gender", ["Male", "Female"])
     age = st.slider("Age", 18, 60, 22)
     academic_pressure = st.slider("Academic Pressure (1-5)", 1.0, 5.0, 3.0, 0.5)
-   cgpa_input = st.slider("CGPA (Malaysian scale 0-4)", 0.0, 4.0, 3.0, 0.01)
+    cgpa_input = st.slider("CGPA (Malaysian scale 0-4)", 0.0, 4.0, 3.0, 0.01)
     cgpa = cgpa_input * 2.5
     study_satisfaction = st.slider("Study Satisfaction (1-5)", 1.0, 5.0, 3.0, 0.5)
 
