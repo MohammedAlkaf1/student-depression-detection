@@ -19,7 +19,8 @@ def load_artifacts():
 
 model, scaler, encoders = load_artifacts()
 
-st.title("🧠 Smart Campus Student Mental Health Early Detection")
+st.title("🧠 Student Depression Risk Detector")
+st.caption("A Smart Campus Mental Health Early Detection System")
 st.markdown("""
 This application uses machine learning to identify students who may be at risk 
 of depression based on academic and lifestyle factors. Built for **BCI3333 - 
